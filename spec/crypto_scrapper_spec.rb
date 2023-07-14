@@ -1,4 +1,4 @@
-require_relative '../jour_4/crypto_scrapper.rb'
+require_relative '../jour_4/lib/crypto_scrapper.rb'
 
     RSpec.describe "crypto_scrapper" do 
         it "returns an array of hashes with crypto names and prices" do

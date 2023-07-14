@@ -18,5 +18,6 @@ def crypto_scrapper
     end
 
     arr = cryto_name.zip(cryto_price).map {|name, price|{name => price}}
-    return arr
+    puts arr
 end
+crypto_scrapper
